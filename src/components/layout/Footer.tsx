@@ -26,7 +26,7 @@ const Footer = () => {
             </Link>
             <p className="text-muted-foreground text-sm">
               Crafting premium artisan ice creams with love since 2010. Every
-              scoop tells a story of quality and passion.
+              scoop tells a story of quality and passion
             </p>
             <div className="flex gap-4">
               <motion.a
