@@ -1,8 +1,8 @@
-import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
-import { ArrowRight, Play } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import heroVideo from '@/assets/hero-video.mp4';
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import { ArrowRight, Play } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import heroVideo from "@/assets/hero-video.mp4";
 
 const HeroSection = () => {
   return (
@@ -31,7 +31,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6 }}
           >
             <span className="inline-block px-4 py-2 bg-primary/20 text-primary rounded-full text-sm font-semibold mb-6">
-              Premium Artisan Ice Cream
+              New
             </span>
           </motion.div>
 
@@ -52,8 +52,9 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl text-muted-foreground mb-8 leading-relaxed"
           >
-            Handcrafted with passion, made with the finest ingredients. 
-            Experience the perfect blend of tradition and innovation in every scoop.
+            Handcrafted with passion, made with the finest ingredients.
+            Experience the perfect blend of tradition and innovation in every
+            scoop.
           </motion.p>
 
           <motion.div
@@ -83,15 +84,21 @@ const HeroSection = () => {
           >
             <div>
               <div className="text-3xl font-bold text-primary">50+</div>
-              <div className="text-sm text-muted-foreground">Unique Flavors</div>
+              <div className="text-sm text-muted-foreground">
+                Unique Flavors
+              </div>
             </div>
             <div>
               <div className="text-3xl font-bold text-primary">15+</div>
-              <div className="text-sm text-muted-foreground">Years of Excellence</div>
+              <div className="text-sm text-muted-foreground">
+                Years of Excellence
+              </div>
             </div>
             <div>
               <div className="text-3xl font-bold text-primary">1M+</div>
-              <div className="text-sm text-muted-foreground">Happy Customers</div>
+              <div className="text-sm text-muted-foreground">
+                Happy Customers
+              </div>
             </div>
           </motion.div>
         </div>
